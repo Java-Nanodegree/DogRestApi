@@ -1,6 +1,7 @@
 package com.example.restapi.service;
 
 import com.example.restapi.entity.Dog;
+import com.example.restapi.exception.DogNotFoundException;
 import com.example.restapi.repository.DogRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
